@@ -1,0 +1,138 @@
+body{
+    background-color: rgba(245, 194, 54, 0.082);
+}
+*{
+    box-sizing: border-box;
+}
+/*ძიების ველის დასაწყისი*/
+img{
+    display: inline-block;
+}
+.logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 630px;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    float: inline-start;
+    margin-top: 70px;
+}
+
+.heart, .cart{
+    width: 20px;
+    height: 20px;
+    float: inline-end;
+    margin-top: 83px;
+}
+.cart{
+    margin-right: 20px;
+}
+.cart:hover{
+    border:  1px solid darkred;
+  }
+.heart:hover{
+    border:  1px solid darkred;
+  }
+.search:hover{
+    border:  1px solid darkred;
+  }
+/*ძიების ველის დასასრული*/
+/*buttons*/
+a{
+    display: inline-block;
+    outline: none;
+    margin-left: 20px;
+    color: #daa520;
+}
+.a1{
+    margin-left: 450px;
+}
+a:hover{
+    color: darkred;
+}
+/*foni*/
+.wine{
+    width: 100%;
+    height: 700px;
+}
+
+/*produqcia*/
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    color: darkred;
+}
+button:hover{
+    background-color: darkred;
+    color: white;
+}
+.new{
+    margin-left: 550px;
+}
+.img1,.img2,.img3,.img4{
+    width: 300px;
+    height: 300px;
+}
+.img3{
+    margin-top: 20px;
+}
+
+.a,.b,.c,.d{
+    position: absolute;
+}
+.p1,.p2{
+    margin-top: 20px;
+    margin-left: 330px;
+}
+.b{
+    margin-top: 50px;
+}
+.p2{
+    margin-top: 80px;
+}
+.targmani{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: x-small;
+    background-color: white;
+}
+.targmani:hover{
+    background-color: #8b0000;
+}
+.main1,.main2,.main3,.main4{
+    display: inline-block;
+    padding-top: 30px;
+}
+.main3{
+    margin-top: 30px;
+}
+
+.next{
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    float: inline-end;
+    margin-top: 100px;
+    margin-right: 600px;
+}
+/*end*/
+.message{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+}
+.app{
+    width: 300px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
